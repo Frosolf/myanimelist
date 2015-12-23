@@ -1,0 +1,139 @@
+.status_not_selected a, .status_selected a {
+	position: fixed !important;
+	display: block !important;
+	margin-top: 98px;
+	padding-right: 4px;
+	font-family: 'Griffy', cursive;
+	color: rgba(155, 187, 89, 1) !important;
+	line-height: 30px;
+	font-size: 18px;
+	text-align: right;
+	right: 0px;
+	height: 32px;
+	width: 175px;
+	background-color: rgba(216, 228, 188, 1); 
+	z-index: 20;
+}
+
+/* Currently watching */
+.status_not_selected > a[href*="status=1"], .status_not_selected > a[href*="status=1"]:hover, .status_not_selected > a[href*="status=1"]:active, .status_selected > a[href*="status=1"] {
+ 	display: block; 
+	top: 0px; 
+	border-top: solid 2px rgba(155, 187, 89, 1); 
+	border-left: solid 2px rgba(155, 187, 89, 1); 
+	border-right: solid 2px rgba(155, 187, 89, 1); 
+	border-top-left-radius: 20em;
+	-o-border-top-left-radius: 20em;
+	-moz-border-top-left-radius: 20em;
+	-webkit-border-top-left-radius: 20em;
+	transition: color .5s linear, border-color .5s linear;
+	-o-transition: color .5s linear, border-color .5s linear;
+	-moz-transition: color .5s linear, border-color .5s linear;
+	-webkit-transition: color .5s linear, border-color .5s linear;
+}
+
+.status_not_selected > a[href*="status=1"]:hover, .status_not_selected > a[href*="status=1"]:active, .status_selected > a[href*="status=1"] { 
+	color: #FFFFFF !important;
+	border-color: rgba(233, 20, 1, 1);
+	background-color: rgba(253, 174, 205, 1); 
+}
+
+/* Completed */
+.status_not_selected > a[href*="status=2"], status_not_selected > a[href*="status=2"]:hover, .status_not_selected > a[href*="status=2"]:active, .status_selected > a[href*="status=2"] {
+	position: absolute; 
+	display: block; 
+	top: 32px; 
+	border-left: solid 2px rgba(155, 187, 89, 1); 
+	border-right: solid 2px rgba(155, 187, 89, 1); 
+	transition: color .5s linear, border-color .5s linear;
+	-o-transition: color .5s linear, border-color .5s linear;
+	-moz-transition: color .5s linear, border-color .5s linear;
+	-webkit-transition: color .5s linear, border-color .5s linear;
+}
+
+.status_not_selected > a[href*="status=2"]:hover, .status_not_selected > a[href*="status=2"]:active, .status_selected > a[href*="status=2"] { 
+	color: #FFFFFF !important;
+	border-color: rgba(233, 20, 1, 1);
+	background-color: rgba(253, 174, 205, 1); 
+}
+
+/* On Hold */
+.status_not_selected > a[href*="status=3"], .status_not_selected > a[href*="status=3"]:hover, .status_not_selected > a[href*="status=3"]:active, .status_selected > a[href*="status=3"] {
+	 position: absolute; 
+	display: block;  
+	top: 64px;
+	border-left: solid 2px rgba(155, 187, 89, 1); 
+	border-right: solid 2px rgba(155, 187, 89, 1); 
+	transition: color .5s linear, border-color .5s linear;
+	-o-transition: color .5s linear, border-color .5s linear;
+	-moz-transition: color .5s linear, border-color .5s linear;
+	-webkit-transition: color .5s linear, border-color .5s linear;
+}
+
+.status_not_selected > a[href*="status=3"]:hover, .status_not_selected > a[href*="status=3"]:active, .status_selected > a[href*="status=3"] { 
+	color: #FFFFFF !important;
+	border-color: rgba(233, 20, 1, 1);
+	background-color: rgba(253, 174, 205, 1); 
+}
+
+/* Dropped */
+.status_not_selected > a[href*="status=4"], .status_not_selected > a[href*="status=4"]:hover, .status_not_selected > a[href*="status=4"]:active, .status_selected > a[href*="status=4"] {
+	position: absolute; 
+	display: block; 
+	top: 96px;
+	border-left: solid 2px rgba(155, 187, 89, 1); 
+	border-right: solid 2px rgba(155, 187, 89, 1); 
+	transition: color .5s linear, border-color .5s linear;
+	-o-transition: color .5s linear, border-color .5s linear;
+	-moz-transition: color .5s linear, border-color .5s linear;
+	-webkit-transition: color .5s linear, border-color .5s linear;
+}
+
+.status_not_selected > a[href*="status=4"]:hover, .status_not_selected > a[href*="status=4"]:active, .status_selected > a[href*="status=4"] { 
+	color: #FFFFFF !important;
+	border-color: rgba(233, 20, 1, 1);
+	background-color: rgba(253, 174, 205, 1); 
+}
+
+/* Planned */
+.status_not_selected > a[href*="status=6"], .status_not_selected > a[href*="status=6"]:hover,  .status_not_selected > a[href*="status=6"]:active, .status_selected > a[href*="status=6"]  {
+	position: absolute; 
+	display: block; 
+	top: 128px; 
+	border-left: solid 2px rgba(155, 187, 89, 1); 
+	border-right: solid 2px rgba(155, 187, 89, 1); 
+	transition: color .5s linear, border-color .5s linear;
+	-o-transition: color .5s linear, border-color .5s linear;
+	-moz-transition: color .5s linear, border-color .5s linear;
+	-webkit-transition: color .5s linear, border-color .5s linear;
+}
+
+.status_not_selected > a[href*="status=6"]:hover,  .status_not_selected > a[href*="status=6"]:active, .status_selected > a[href*="status=6"] { 
+	color: #FFFFFF !important;
+	border-color: rgba(233, 20, 1, 1);
+	background-color: rgba(253, 174, 205, 1); 
+}
+
+/*All */
+.status_not_selected > a[href*="status=7"], .status_not_selected > a[href*="status=7"]:hover, .status_not_selected > a[href*="status=7"]:active, .status_selected > a[href*="status=7"]  {
+	position: absolute; 
+	display: block; 
+	top: 160px; 
+	border-left: solid 2px rgba(155, 187, 89, 1); 
+	border-right: solid 2px rgba(155, 187, 89, 1); 
+	border-bottom: solid 2px rgba(155, 187, 89, 1); 
+	border-bottom-left-radius: 20em;
+	-o-border-bottom-left-radius: 20em;
+	-moz-border-bottom-left-radius: 20em;
+	-webkit-border-bottom-left-radius: 20em;
+	transition: color .5s linear, border-color .5s linear;
+	-o-transition: color .5s linear, border-color .5s linear;
+	-moz-transition: color .5s linear, border-color .5s linear;
+	-webkit-transition: color .5s linear, border-color .5s linear;
+}
+
+.status_not_selected > a[href*="status=7"]:hover, .status_not_selected > a[href*="status=7"]:active, .status_selected > a[href*="status=7"] { 
+	color: #FFFFFF !important;
+	border-color: rgba(233, 20, 1, 1); 
+	background-color: rgba(253, 174, 205, 1); 
+}
